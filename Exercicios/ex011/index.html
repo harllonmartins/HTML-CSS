@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mídias</title>
+    <style>
+        video {
+            width: 1000px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Trabalhando com imagens</h1>
+    <p>Abra esse site em dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./img/image-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./img/image-m.png" type="image/png">
+        <img src="./img/image-g.png" alt="imagem grande com fundo verde">
+    </picture>
+    <h1>Trabalhando com Áudios</h1>
+    <audio src="./audio/Future-Freeway-Adam-MacDougall.mp3" controls></audio>
+    <!-- MP3 WAV OGG -->
+    <br>
+    <audio preload="metadata" controls>
+        <source src="./audio/Future-Freeway-Adam-MacDougall.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="./audio/Future-Freeway-Adam-MacDougall.mp3" download="">Clique aqui para baixar o arquivos MP3</a></p>
+    </audio>
 </body>
 </html>

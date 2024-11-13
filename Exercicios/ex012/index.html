@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mídias com HTML5</title>
+    <title>Vídeos</title>
 </head>
 <body>
-    <h1>Trabalhando com imagens</h1>
-    <p>Abra esse site em dispositivos diferentes ou aumente e diminua o tamanho do seu navegador</p>
-    <picture>
-        <source media="(max-width: 750px)" srcset="./img/image-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="./img/image-m.png" type="image/png">
-        <img src="./img/image-g.png" alt="imagem grande com fundo verde">
-    </picture>
+    <h1>Trabalhando com vídeos</h1>
+    <video src="./video/november.mp4" width="500px" poster="./img/pexels-maksgelatin.jpg" controls></video>
+    <!-- Posso adicionar vídeos dessas duas formas em HTML -->
+    <video controls width="500px" poster="./img/pexels-maksgelatin.jpg">
+        <source src="video/november.mp4" type="video/mp4">
+    </video>
 </body>
 </html>
