@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formatações semânticas de texto</h1>    
+    <h3>Texto inserido</h3>
+    <p>Podemos marcar um <ins>texto como inserido</ins></p>
+    <h3>Texto Deletado</h3>
+    <p>Podemos marcar um <del>texto como deletado</del></p>
+    <h3>Texto sobrescrito</h3>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h3>Texto subescrito</h3>
+    <p>Para inserir coisas tipo H<sub>2</sub>O</p>
+    <h3>Texto forte</h3>
+    <p>Podemos marcar um <strong>texto como forte</strong></p>
+    <h3>Texto com ênfase</h3>
+    <p>Podemos dar <em>ênfase a um texto</em></p>
+    <h3>Texto de código</h3>
+    <p>O comando <code>window.alert('Isso é um alerta');</code> é escrito na linguagem JavaScript</p>
+    <pre> <!-- A tag <pre> faz com que se considere o aninhamento do código digitado. É uma tag de preformatado -->
+        <code>
+const numero1 = Number(window.prompt('Digite um número:'));
+const numero2 = Number(window.prompt('Digite ou número'));
+const soma = numero1 + numero2;
+window.alert(`O resultado do cálculo é ${soma}`); 
+        </code>
+    </pre>
+
+    <h3>Citações simples</h3> 
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!-- A tag <q> é de quote, que é citação -->
+    <h3>Citações completas</h3>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote cite="link"> <!-- A citação ajuda os mecanismos de busca para saber da referência que você fez -->
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h3>Abreviações</h3>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+</body>
+</html>
