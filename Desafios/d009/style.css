@@ -1,0 +1,33 @@
+body{
+    font-family: "Roboto";
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+/* Usado no main de todas as páginas*/
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Usado no main da página principal*/
+.main-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+/* Usado nos itens do grid da página principal */
+.item {
+    width: 600px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.link-style {
+    text-decoration: underline;
+    color: white;
+}
